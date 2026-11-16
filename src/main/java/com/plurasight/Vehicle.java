@@ -1,4 +1,53 @@
 package com.plurasight;
 
 public class Vehicle {
+    protected String color;
+    protected int numberOfPassengers;
+    protected int cargoCapacity;
+    protected int fuelCapacity;
+
+    Vehicle(String color, int fuelCapacity,int numberOfPassengers,int cargoCapacity){
+        this.color = color;
+        this.fuelCapacity = fuelCapacity;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+    }
+
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getNumberOfPassengers() {
+        return numberOfPassengers;
+    }
+
+    public void setNumberOfPassengers(int numberOfPassengers) {
+        this.numberOfPassengers = numberOfPassengers;
+    }
+
+    public int getCargoCapacity() {
+        return cargoCapacity;
+    }
+
+    public void setCargoCapacity(int cargoCapacity) {
+        this.cargoCapacity = cargoCapacity;
+    }
+
+    public int getFuelCapacity() {
+        return fuelCapacity;
+    }
+
+    public void setFuelCapacity(int fuelCapacity) {
+        this.fuelCapacity = fuelCapacity;
+    }
+
+
+
+
+
 }
